@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="style.css/sobre.css">
   <link rel="stylesheet" href="style.css/diferenciais.css">
   <link rel="stylesheet" href="style.css/planos.css">
+  <link rel="stylesheet" href="style.css/contato.css">
+  
 
 
 </head>
@@ -27,7 +29,7 @@
       <ul>
         <li class="cabecalhoLink"><a href="#primeiro">Sobre</a></li>
         <li class="cabecalhoLink"><a href="#segundo">Planos</a></li>
-        <li class="cabecalhoLink"><a href="">Contato</a></li>
+        <li class="cabecalhoLink"><a href="#terceiro">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -68,49 +70,83 @@
       <ul class="planos__coopere">
         <li class="coopere coopere--gratis">
           <article class="coopere__conteudo">
+            <h3 class="coopere__titulo">Gratuito</h3>
             <p class="coopere__preco"><em>Gratuito</em></p>
-            <p class="coopere__texto"> 	&bull; Experimente por 30 dias;</p>
-            <p class="coopere__texto"> 	&bull; 15 pesquisas mensais.</p>
-            <a href="" class="coopere__botao coopere__botao--mega botao">Faça o teste</a>
+            <p class="coopere__texto"> &bull; Experimente por 30 dias;</p>
+            <p class="coopere__texto"> &bull; 15 pesquisas mensais.</p>
+            <div class="maldito__botao"></div>
+            <a class="coopere__botao botao">Faça o teste</a>
           </article>
         </li>
         <li class="coopere coopere--mensal">
-          <h3 class="coopere__titulo">Mensal</h3>
           <article class="coopere__conteudo">
+            <h3 class="coopere__titulo">Mensal</h3>
             <p class="coopere__preco"><em>R$ 9,90</em></p>
-            <p class="coopere__texto">	&bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
-            <p class="coopere__texto">	&bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas;</p>
-            <p class="coopere__texto">	&bull; Suporte padrão.</p>
-            <a href="" class="coopere__botao coopere__botao--ultra botao">Assinar plano</a>
+            <p class="coopere__texto"> &bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
+            <p class="coopere__texto"> &bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas;</p>
+            <p class="coopere__texto"> &bull; Suporte padrão.</p>
+            <div class="maldito__botao"></div>
+            <a class="coopere__botao botao">Assinar plano</a>
           </article>
         </li>
         <li class="coopere coopere--trimestral">
-          <h3 class="coopere__titulo">Trimestral</h3>
-          <p class="coopere__preco"><em>R$ 27,90</em></p>
           <article class="coopere__conteudo">
-            <p class="coopere__texto">	&bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
-            <p class="coopere__texto">	&bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas.</p>
-            <p class="coopere__texto">	&bull; Suporte padrão (upgrade pago aprimorado).</p>
-            <a href="" class="coopere__botao coopere__botao--mega botao">Assinar plano</a>
+            <h3 class="coopere__titulo">Trimestral</h3>
+            <p class="coopere__preco"><em>R$ 27,90</em></p>
+            <p class="coopere__texto"> &bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
+            <p class="coopere__texto"> &bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas.</p>
+            <p class="coopere__texto"> &bull; Suporte padrão (upgrade pago aprimorado).</p>
+            <div class="maldito__botao"></div>
+            <a class="coopere__botao botao">Assinar plano</a>
           </article>
         </li>
         <li class="coopere coopere--anual">
-          <h3 class="coopere__titulo">Anual</h3>
-          <p class="coopere__preco"><em>R$ 109,90</em></p>
           <article class="coopere__conteudo">
-            <p class="coopere__texto">	&bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
-            <p class="coopere__texto">	&bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas;</p>
-            <p class="coopere__texto">	&bull; Suporte padrão (upgrade pago aprimorado);</p>
-            <p class="coopere__texto">	&bull; Acesso direto com os desenvolvedores para sanar dúvidas.</p>
-            <a href="" class="coopere__botao coopere__botao--mega botao">Assinar plano</a>
+            <h3 class="coopere__titulo">Anual</h3>
+            <p class="coopere__preco"><em>R$ 109,90</em></p>
+            <p class="coopere__texto"> &bull; Pesquisas ilimitadas de códigos e suas funcionalidades;</p>
+            <p class="coopere__texto"> &bull; Mecânica de organização do desenvolvimento de códigos e tempo utilizados disponibilizadas;</p>
+            <p class="coopere__texto"> &bull; Suporte padrão (upgrade pago aprimorado);</p>
+            <p class="coopere__texto"> &bull; Acesso direto com os desenvolvedores para sanar dúvidas.</p>
+            <div class="maldito__botao"></div>
+            <a class="coopere__botao botao">Assinar plano</a>
           </article>
         </li>
       </ul>
     </section>
-    <section class="contato container">
-      <h2 class="contato__titulo">Contato</h2>
-      <p>Entre em contato com a gente</p>
-      <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+    <main class="contato_fundo">
+    <section class="contato" id="terceiro">
+      <form id="contato__form">
+        <div class="form-contato">
+          <h2 class="contato__titulo">Entre em contato conosco:</h2>
+          <br><br>
+            <label id="name-label" for="name">Nome:</label>
+            <input type="texto" name="name" id="name"
+                placeholder="Coloque o seu nome aqui, por favor." required />
+            <br><br>
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" name="email" id="email"
+                placeholder="Coloque o seu e-mail aqui, por favor." required />
+            <br><br>
+            <p>Qual o seu plano?</p>
+            <select id="dropdown" name="role"  required>
+                <option disabled selected value>Selecione o seu tipo de plano:</option>
+                <option value="analfabeto">Gratuito</option>
+                <option value="fundamental">Mensal</option>
+                <option value="medio">Trimestral</option>
+                <option value="superior">Anual</option>
+                <option value="outros">Ainda não tenho</option>
+            </select>
+            <br><br>
+          <p>Qual a sua dúvida?</p>
+          <textarea id="duvida" class="input-textarea" name="comment"
+              placeholder="Coloque aqui a sua dúvida de maneira sucinta"></textarea>
+              <br><br>
+          <button type="submit" class="coopere__botao botao">
+              Enviar
+          </button>
+      </div>
+</form>
     </section>
   </main>
   <section class="rodape">

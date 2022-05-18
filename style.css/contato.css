@@ -1,0 +1,32 @@
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+  border: 2px solid #2F4F4F;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+  padding: 25px;
+  align-items: center;
+}
+
+#name {
+  width: 60%;
+  color: #000000;
+}
+
+#email {
+  width: 60%;
+  color: #000000;
+}
+
+#duvida {
+  width: 60%;
+  padding: 45px;
+  color: #000000;
+}
+
+.contato__titulo {
+  font-size: 30px;
+  color: #006400;
+}

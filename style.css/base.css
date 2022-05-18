@@ -7,30 +7,16 @@ body {
   padding-left: 6%;
 } */
 
-.botao {
-  text-align: center;
-  display: block;
-  width: 100%;
-  max-width: 230px;
-  box-sizing: border-box;
-  padding: 1rem 2rem;
-  border: 2px solid #2E8B57;
-  border-radius: 5px;
-}
-
-.botao:hover{
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-  border: 3px solid #556B2F;
-}
-
 .rodape {
   text-align: center;
-  background-color: #ebebeb;
+  background-color: #fff;
   padding: 20px;
 }
 
 main {
   background-color: #ebebeb;
+}
+
+.contato_fundo {
+  background-color: #fff;
 }
