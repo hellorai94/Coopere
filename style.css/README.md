@@ -1,0 +1,1 @@
+Projeto desenvolvido para a disciplina de Inovação e Empreendedorismo - SENAI BAHIA
