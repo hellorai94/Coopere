@@ -1,8 +1,11 @@
 .sobre {
   background-color: #fff;
-  border: 3px solid #2F4F4F;
+  border: 2px solid #2F4F4F;
   column-count: 2;
-  padding: 30px;
+  margin-left: 67px;
+  margin-right: 67px;
+  border-radius: 5px;
+  display: flex;
 }
 
 .sobre__titulo {
@@ -26,5 +29,21 @@
   margin: 5px;
   padding: 30px;
   color: #000000;
+}
 
+.div_imagem {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_sobre {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 25px;
+  
 }
