@@ -1,0 +1,39 @@
+.caixa {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+.novidades {
+  display: grid;
+  grid-gap: .2rem;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  height: calc(100vh - 50px);
+}
+
+.destaques__titulo {
+  background: rgb(143,188,143, .5);
+  color: #000000;
+  padding: .4rem;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+.destaques__principal {
+  background: url("../img/codigos.png") center / cover no-repeat;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+#novosCodigos {
+  background: url("../img/codigosAcessados.png") center / cover no-repeat;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+}
+
+#forum {
+  background: url("../img/forum.png") center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 3;
+}
