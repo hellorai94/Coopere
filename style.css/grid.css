@@ -11,13 +11,21 @@
   height: calc(100vh - 50px);
 }
 
-.destaques__titulo {
+.destaques__titulo  {
   background: rgb(143,188,143, .5);
   color: #000000;
   padding: .4rem;
   text-align: center;
   width: 100%;
-  font-size: 18px;
+  font-size: 1.5rem;
+}
+
+.destaques__titulo:hover {
+  border-bottom: 2px solid #2F4F4F;
+}
+
+a {
+  width: 100%;
 }
 
 .destaques__principal {
@@ -37,3 +45,4 @@
   grid-column: 4 / 4;
   grid-row: 1 / 3;
 }
+

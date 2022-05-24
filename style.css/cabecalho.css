@@ -27,3 +27,8 @@
   text-transform: uppercase;
 }
 
+
+.cabecalhoLink:hover, .cabecalhoLink.ativo {
+  border-bottom: 2px solid #2F4F4F;
+}
+

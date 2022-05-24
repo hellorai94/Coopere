@@ -11,6 +11,8 @@ body {
   text-align: center;
   background-color: #fff;
   padding: 20px;
+  font-size: .8rem;
+  background: #fdfdfd;
 }
 
 main {
@@ -19,4 +21,9 @@ main {
 
 .contato_fundo {
   background-color: #fff;
+}
+
+hr {
+  padding-bottom: 45px;
+  color: #2F4F4F;
 }
