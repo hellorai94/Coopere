@@ -1,0 +1,75 @@
+<!-- ref: https://www.htmlecsspro.com/artigo/formulario-de-login-e-cadastro-com-html5-e-css3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@100;300;400;700&family=Nunito:ital,wght@1,200&family=Open+Sans:wght@300;400;700&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@1,100&family=Source+Serif+4:ital,opsz@1,8..60&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/formulario.css">
+  <link rel="shortcut icon" href="img/logo_coopere.ico" type="image/x-icon">
+  
+</head>
+<body>
+<div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+    
+    <div class="content">      
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="emailLogin">Digite o seu e-mail:</label>
+            <input id="emailLogin" name="email_login" required="required" type="text" placeholder="contato@coopere.com"/>
+          </p> 
+          <p> 
+            <label for="senhaLogin">Digite a sua senha:</label>
+            <input id="senhaLogin" name="senha_login" required="required" type="password" placeholder="1234" /> 
+          </p>
+          <p> 
+            <input type="checkbox" name="manterLogado" id="manterLogado" value="" /> 
+            <label for="manterLogado">Manter-me logado</label>
+          </p>
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+          <p class="link">
+            Ainda não tem uma conta?
+            <a href="#paracadastro">Cadastre-se agora.</a>
+          </p>
+        </form>
+      </div>
+      <div id="cadastro">
+        <form method="post" action=""> 
+          <h1>Cadastro - Coopere</h1> 
+          <p> 
+            <label for="nome_cad">Digite o seu nome: </label>
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Tiago" />
+          </p>
+          <p> 
+            <label for="email_cad">Digite o seu e-mail:</label>
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@coopere.com"/> 
+          </p>
+          <p> 
+            <label for="senha_cad">Digite a sua senha:</label>
+            <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+          </p>
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+             <p class="link">  
+            Já tem conta?
+            <a href="#paralogin"> Faça o Login! </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div> 
+    <footer> Desenvolvido pelos alunos da turma 81500 | SENAI - BA &copy; 2022 </footer>
+</body>
+</html>
