@@ -31,3 +31,27 @@ hr {
   padding-bottom: 45px;
   color: #2F4F4F;
 }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: flex;
+  bottom: 8px;
+  right: 8px;
+  width: 35px;
+  height: 45px;
+  background-color: #DCDCDC;
+  text-decoration: none;
+
+}
+.btn::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+  transition: margin-top 250ms;
+}
+.btn:hover::after {
+  margin-top:-8px;
+}
