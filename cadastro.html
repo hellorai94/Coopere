@@ -1,0 +1,92 @@
+<!-- ref: https://github.com/rafaballerini/Formulario/blob/master/formulario.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@100;300;400;700&family=Nunito:ital,wght@1,200&family=Open+Sans:wght@300;400;700&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@1,100&family=Source+Serif+4:ital,opsz@1,8..60&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/cadastro.css">
+  <link rel="shortcut icon" href="img/logo_coopere.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div>
+    <h1 id="titulo">Cadastro de Plano</h1>
+  </div>
+  <form>
+    <div class="campo">
+      <label for="nome"><strong>Nome:</strong></label>
+      <input type="text" name="nome" id="nome" required>
+    </div>
+    <div class="campo">
+      <label for="sobrenome"><strong>Sobrenome:</strong></label>
+      <input type="text" name="sobrenome" id="sobrenome" required>
+    </div>
+    <div class="campo">
+      <label for="email"><strong>Email:</strong></label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="campo">
+      <label for="telNo"><strong>Telefone:</strong></label>
+      <input id="telNo" name="telNo" type="tel" required>
+    </div>
+    <div class="campo">
+      <label for="cep">CEP</label>
+      <input id="cep" type="text" required />
+    </div>
+    <div class="campo">
+      <label for="logradouro">Logradouro</label>
+      <input id="logradouro" type="text" required />
+    </div>
+    <div class="campo">
+      <label for="numero">Número</label>
+      <input id="numero" type="text" />
+    </div>
+    <div class="campo">
+      <label for="complemento">Complemento</label>
+      <input id="complemento" type="text" />
+    </div>
+    <div class="campo">
+      <label for="bairro">Bairro</label>
+      <input id="bairro" type="text" required />
+    </div>
+    <div class="campo">
+      <label for="uf">Estado</label>
+      <input id="bairro" type="text" required />
+    </div>
+    <div class="campo">
+      <label><strong>Qual tipo de plano você quer assinar?</strong></label>
+      <label>
+        <input type="radio" name="devweb" value="frontend" checked>Mensal
+      </label>
+      <label>
+        <input type="radio" name="devweb" value="backend">Trimestral
+      </label>
+      <label>
+        <input type="radio" name="devweb" value="fullstack">Anual
+      </label>
+    </div>
+    <div class="campo">
+      <label><strong>Forma de pagamento</strong></label>
+      <select required>
+        <option selected disabled value="">Selecione a forma de pagamento</option>
+        <option>Cartão</option>
+        <option>Pix</option>
+        <option>Boleto</option>
+      </select>
+    </div>
+    <br>
+    <button class="botao" type="submit" onsubmit="">Concluído</button>
+  </form>
+  <br><br><br>
+  <section class="rodape">
+    <footer> Desenvolvido pelos alunos da turma 81500 | SENAI - BA &copy; 2022 </footer>
+  </section>
+</body>
+</html>
